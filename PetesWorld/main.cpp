@@ -147,7 +147,7 @@ int main()
 		}
 		if (region == 4)
 		{
-			std::cout << "East Timor, \n";
+			std::cout << "East Timor\n";
 		}
 		if (region == 5)
 		{
@@ -156,7 +156,33 @@ int main()
 
 	}
 
+	if (letter == 'f' || letter == 'F')
+	{
+		if (region == 1)
+		{
+			std::cout << "Falkland, French Guiana \n";
+		}
+		if (region == 2)
+		{
+			std::cout << "Faroe Islands, Finland, France\n";
+		}
+		if (region == 3)
+		{
+			std::cout << "There is no f country in Africa\n";
+		}
+		if (region == 4)
+		{
+			std::cout << "There is no f country in Asia\n";
+		}
+		if (region == 5)
+		{
+			std::cout << "Fiji, French Polynesia, French Southern Territories\n";
+		}
 
+
+	}
+	
+	
 
 
 	if (letter == 'z' || letter == 'Z') // written by Pete
