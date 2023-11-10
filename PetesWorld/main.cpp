@@ -22,7 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to C or Z to Y" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to D or Z to Y" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{
@@ -102,6 +102,31 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Christmas Island\n";
+		}
+
+	}
+
+	if (letter == 'd' || letter == 'D')
+	{
+		if (region == 1)
+		{
+			std::cout << "There is no d in America\n";
+		}
+		if (region == 2)
+		{
+			std::cout << "Denmark\n";
+		}
+		if (region == 3)
+		{
+			std::cout << "Djibouti\n";
+		}
+		if (region == 4)
+		{
+			std::cout << "There is no d in Asia\n";
+		}
+		if (region == 5)
+		{
+			std::cout << "Dominica, Dominican Republic\n";
 		}
 
 	}
