@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 	std::cout << "Pick a letter from A to E or Z to X" << std::endl; // change this line each iteration
-	std::cin >> letter;
+    std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{
 		if (letter < 'a' || letter > 'z') // not a lower case letter
