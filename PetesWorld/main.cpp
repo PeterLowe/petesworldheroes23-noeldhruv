@@ -22,7 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to E or Z to X" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to E or Z to W" << std::endl; // change this line each iteration
     std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{
@@ -231,6 +231,31 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "there is no X in rest of the world" << std::endl;
+		}
+	}
+	if (letter == 'w' || letter == 'W')
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no W in the America" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no W in Europe" << std::endl;
+
+		}
+		if (region == 3)
+		{
+			std::cout << "Western SaharaNorthern Africa " << std::endl;
+
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no W in Asia " << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Wallis and Futuna Islands ,Polynesia, Oceania" << std::endl;
 		}
 	}
 
